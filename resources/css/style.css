@@ -1,0 +1,228 @@
+body{
+    font-family: sans-serif;
+}
+
+.web {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 50%;
+}
+
+.login {
+    float: right;
+    width: 10%;
+    text-align: right;
+}
+
+#tablaCarrito{
+    float: right;
+    text-align: left;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.carrito{
+    float: left;
+    width: 40%;
+    text-align: right;
+}
+
+.menu {
+    clear: both;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul {
+    font-family: sans-serif;
+    font-size: 12pt;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.menu a {
+    display: block;
+    text-align: center;
+    padding: 8px 0px;
+    background-color: #424243;
+    text-decoration: none;
+    color: #ffffff;
+    align-content: center;
+    width: 204px;
+    margin: 0px;
+}
+
+.menu a:hover {
+    background-color: #858585;
+}
+
+.menu ul li ul {
+    display: none;
+    float: left;
+    position: fixed;
+}
+
+.menu ul li a:hover + ul, .menu ul li ul:hover {
+    display: block;
+    width: 100px;
+}
+
+.footer {
+    bottom: 0;
+    position: relative;
+    width: 1024px;
+    background-color: #424243;
+    color: white;
+    text-align: center;
+    padding: 0.4cm 0cm 0.2cm 0cm;
+    font-family: sans-serif;
+    font-size: 8pt;
+}
+
+.contenido {
+    min-height: 450px;
+}
+
+#productoLink{
+    display: inline;
+}
+
+#productoLink img {
+    width: 50%;
+    border-radius: 10%;
+    margin-top: 5%;
+}
+
+#productoLink img:hover{
+    box-shadow: 0 0 2px 1px #424243;
+}
+
+.mi_perfil_categorias {
+    display: none;
+    width: 95px;
+}
+
+.mi_perfil_categorias li {
+    background-color: #424243;
+    font-family: sans-serif;
+    font-size: 10pt;
+}
+
+.mi_perfil_categorias li a {
+    color:#FFFFFF;
+    text-decoration:none;
+    padding:5px;
+    display:block;
+}
+
+.mi_perfil_categorias li a:hover {
+    padding:5px;
+    background-color: #858585;
+}
+
+ul, li {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#micuenta {
+    float: right;
+}
+
+#imagenProducto{
+    float: left;
+    width: 40%;
+    align-items: center;
+}
+
+#imagenProducto img {
+    width: 75%;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+#textoProducto{
+    float: right;
+    width: 60%;
+}
+
+#tablaResultados {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#tablaResultados tr:nth-of-type(odd) {
+    background: #eee;
+}
+#tablaResultados th {
+    background: #333;
+    color: white;
+    font-weight: bold;
+}
+#tablaResultados td, th {
+    padding: 6px;
+    border: 1px solid #ccc;
+}
+
+.administracion{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+#registro {
+    padding: 1em;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    margin-top: 2rem;
+    max-width: 350px;
+    margin-right: auto;
+    padding: 1em;
+}
+
+#registro label {
+    text-align: left;
+    /*display: block;
+    padding: 0.5em 1.5em 0.5em 0;*/
+}
+
+#registro input {
+    width: 90%;
+    padding: 0.7em;
+    margin-bottom: 0.5rem;
+}
+
+#registro input:focus {
+    outline: 3px solid grey;
+}
+
+button {
+    background: lightgrey;
+    padding: 0.7em;
+    border: 0;
+}
+
+button:hover {
+    background: grey;
+}
+
+#producto {
+    width: 25%;
+    float: left;
+    margin: 0 auto;
+}
+
+#producto div{
+    margin: 0 auto;
+    text-align: center;
+}
